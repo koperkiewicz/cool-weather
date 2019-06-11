@@ -1,1 +1,1 @@
-export const DarkSkyApiKey = 'test';
+export const DarkSkyApiKey = 'test2';
