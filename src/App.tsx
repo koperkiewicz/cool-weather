@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
 import WeatherCard from './components/WeatherCard';
 import styled from 'styled-components';
+import './App.css';
 
 const Wrapper = styled.div`
   display: flex;
@@ -17,27 +17,27 @@ const App: React.FC = () => {
       <Wrapper>
         <WeatherCard
           day="wt."
-          icon="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-          lowTemperature={32}
-          highTemperature={17}
+          icon="sunny"
+          highTemperature={31}
+          lowTemperature={18}
         />
         <WeatherCard
           day="śr."
-          icon="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-          lowTemperature={32}
-          highTemperature={17}
+          icon="sunny"
+          highTemperature={31}
+          lowTemperature={18}
         />
         <WeatherCard
           day="cz."
-          icon="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-          lowTemperature={32}
-          highTemperature={17}
+          icon="rain"
+          highTemperature={31}
+          lowTemperature={18}
         />
         <WeatherCard
           day="pt."
-          icon="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-          lowTemperature={32}
-          highTemperature={17}
+          icon="sunny"
+          highTemperature={31}
+          lowTemperature={18}
         />
       </Wrapper>
     </div>

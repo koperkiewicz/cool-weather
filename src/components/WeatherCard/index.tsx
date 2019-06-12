@@ -1,5 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import WeatherIcons from 'react-weathericons';
+import './css/weather-icons.css';
+import './css/weather-icons-wind.css';
 
 interface IProps {
   day: string;
@@ -32,7 +35,7 @@ const WeatherCard: React.FC<IProps> = ({
   return (
     <Card>
       {day}
-      <img src={icon} />
+      <WeatherIcons name={icon} size="1x" color="#000" />
       {highTemperature}° {lowTemperature}°
     </Card>
   );
